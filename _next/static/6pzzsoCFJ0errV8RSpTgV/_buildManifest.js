@@ -1,0 +1,1 @@
+self.__BUILD_MANIFEST={__rewrites:{beforeFiles:[],afterFiles:[{source:"/metaplex/:any*",destination:"/metaplex/"}],fallback:[]},"/":["static/chunks/pages/index-71a7dddc519538d534a5.js"],"/_error":["static/chunks/pages/_error-e1bcaa043b7e8bc8fc85.js"],sortedPages:["/","/_app","/_error"]},self.__BUILD_MANIFEST_CB&&self.__BUILD_MANIFEST_CB();
