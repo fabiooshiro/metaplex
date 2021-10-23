@@ -108,7 +108,7 @@ export const InstructionsModal: React.FC<ModalProps> = ({
         onCancel={handleCancel}
         footer={null}
         className={'modal-box instructions-modal'}
-        closeIcon={<img src={'/modals/close.svg'} />}
+        closeIcon={<img src={`${process.env.NEXT_PUBLIC_FRONT_BASE_URL}/modals/close.svg`} />}
       >
         <ModalContent>
           <ContentCard

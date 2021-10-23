@@ -50,14 +50,14 @@ const MetaplexMenu = () => {
     return (
       <>
         <Modal
-          title={<img src={'/metaplex-logo.svg'} />}
+          title={<img src={`${process.env.NEXT_PUBLIC_FRONT_BASE_URL}/metaplex-logo.svg`} />}
           visible={isModalVisible}
           footer={null}
           className={'modal-box'}
           closeIcon={
             <img
               onClick={() => setIsModalVisible(false)}
-              src={'/modals/close.svg'}
+              src={`${process.env.NEXT_PUBLIC_FRONT_BASE_URL}/modals/close.svg`}
             />
           }
         >
@@ -109,7 +109,7 @@ const MetaplexMenu = () => {
 export const LogoLink = () => {
   return (
     <Link to={`/`}>
-      <img src={'/metaplex-logo.svg'} />
+      <img src={`${process.env.NEXT_PUBLIC_FRONT_BASE_URL}/metaplex-logo.svg`} />
     </Link>
   );
 };

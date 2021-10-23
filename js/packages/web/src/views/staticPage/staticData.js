@@ -2,7 +2,7 @@ export const data = {
   headContent: {
     title: 'We are Metaplex',
     subtitle: 'About Us',
-    bannerImage: '/main-banner.png',
+    bannerImage: `${process.env.NEXT_PUBLIC_FRONT_BASE_URL}/main-banner.png`,
   },
   leftContent: undefined,
   midContent: {
@@ -14,7 +14,7 @@ export const data = {
           '• Starting a variety of auctions for primary/secondary sales;',
           '• and Visualizing NFTs in a standard way across wallets and applications.',
         ],
-        image: '/main-banner.png',
+        image: `${process.env.NEXT_PUBLIC_FRONT_BASE_URL}/main-banner.png`,
       },
     ],
   },

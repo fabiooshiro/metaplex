@@ -53,7 +53,7 @@ const PreLaunchModal = (props: GotEmailButtonProps) => {
       onCancel={e => handleOnCancel(e)}
       footer={null}
       className={`pre-modal ${className || ''}`}
-      closeIcon={<img src={'/modals/close.svg'} />}
+      closeIcon={<img src={`${process.env.NEXT_PUBLIC_FRONT_BASE_URL}/modals/close.svg`} />}
       {...rest}
     >
       <span className={'how-to-step'}>
